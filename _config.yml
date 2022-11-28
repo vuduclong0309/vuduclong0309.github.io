@@ -1,38 +1,38 @@
 # Site
-repository: sproogen/resume-theme
+repository: vuduclong0309/vuduclong0309.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Vu Duc Long
+title: Ex Data Engineer, Self-learn Trader
+email: vuduclong0309@gmail.com
+website: https://vuduclong0309.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
+#twitter_username: facespics
+github_username:  vuduclong0309
+stackoverflow_username: "6908781"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: vuduclong0309
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
 - title: itsgoingto.be
-  icon: fas fa-globe
+  icon: fas fa-file
   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -48,68 +48,99 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hello there! You can call me Long for short. I’m a currently a master student in financial engineering, with 3 year working experience as a data engineer in Shopee.
+  Beside the current interest in finance, having built a game available on Google Play, this website, and an IEEE journal inspired from my bachelor thesis, I can say I'm an explorer.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  At the moment I'm most in touch with <mark>Python</mark> and <mark>Apache Spark</mark>.
+
+  However, the aspect that's I'm most proud of is my resourcefulness and adaptability.
+
+  "He who stops being better stops being good." - Oliver Cromwell
+
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: LongNShort
+        link: https://longnshort.atlassian.net
         # link_text: Project Website
+        sub_title: Data Engineer, Software Engineer, Product Manager ... (Yeah you got it, everything)
+        caption: August 2022 - Present
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  vuduclong0309/LongAndShort
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/vuduclong0309/LongAndShort
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          A bridge that connects a software engineer and a traditional trader in taming the market ... or getting horribly bullied by it.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          My soul personal project of 2022. I will my tools, including an automated technical trading system; and semi-bot to follow with trade signal on Github. To request for a demo of my issue ticket & confluence, please contact me.
+
+          I could always see a rift when it comes to high frequency trading for most ordinary people:
+            - A software engineer often face problems with understanding financial terms.
+            - A traditional retail trader finds building a high quality trading system a formidable task.
+
+          LongNShort aim to eliminate the obstacle: A quality customizable automated trading system that is both:
+            - Well-documented market archive knowledge for an engineer
+            - Easy-to-use for a trader, as much as using a script copied from a Youtube channel.
+
+          Made possible with:
+            Tech Stack and Framework: <mark>Python, InteractiveBroker TWS API and Backtrader</mark>
+            Development tracking and knowledge archive: <mark>Atlassian JIRA and Confluence</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Shopee Singapore - SEA Limited
+        #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Data Engineer
+        caption: July 2019 - August 2022
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          "I hope I didn't delete any user or item table by accident"
+          "I copied my job duties from my company reference letter, for details please refer to my CV"
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Job duties:
+            - Maintainer of Shopee 3PL Rebate logic, shop's chat response rate and provides
+            data for Shopee Campaign Infographic (2019)
+            - Maintainer of User Profile and Item Profile legacy database (2020-2021)
+            - Design and Implement a Data Warehouse to capture Shopee chatbot metrics (2021)
+            - Expand User Tagging Project - user level tags for newer regions (2022)
+            Tech Stack / Framework: <mark>Python 2/3, Scala, Apache Spark 2.3-3.1, Apache Hadoop, Apache Airflow, Apache Superset, Apache Hive</mark>
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
+        title: Nanyang Techlogical University
+        caption: 2015 - 2019
         sub_title: BSc Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Established in 1991, NTU is the second oldest autonomous university in the country and is considered as one of the most prestigious universities in the world by various international metrics. It is usually ranked amongst the world's top 20 institutions of higher learning (Wikipedia)
+          "You can get a subsidy for tuition fee as an international student and work in Singapore for 3 year after that :D"
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Cumulative Grade Point Average: 4.60 - CONTINUED NEXT PAGE -
+          TRANSCRIPT GUIDE PRINTED ON REVERSE           COMPLETED THE DEGREE OF BACHELOR OF ENGINEERING (COMPUTER SCIENCE), HONOURS (HIGHEST DISTINCTION) WITH AN ELECTIVE FOCUS AN ARTIFICIAL INTELLIGENCE AND AN ELECTIVE FOCUS IN DATA SCIENCE AND ANALYTICS
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Normally I'm very lazy
+        - In fact, most of the job description above I probably just copied from some of my document without editing. I don't want to edit it since I blame it for potential Git merge conflict.
+        - but I can be bribed with fruit juice and food. I believe my productivity is higher in companies with a fully-stocked pantry.
 
-      Look at this cool image  
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Gaming
+      - Manga (I'm NOT an Otaku)
+        - I also "borrowed" a OCR translator (Japanese -> English) be able to read manga in Japanese https://github.com/vuduclong0309/Sugoi-Japanese-Translator from another guy named leminhyen2.
+      - Ping Pong (But please I'm not Chinese)
+      Look at this cool image
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
