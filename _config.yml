@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Vu Duc Long
-title: Ex Data Engineer, Self-learn Trader
+title: Ex Data Engineer, Student
 email: vuduclong0309@gmail.com
 website: https://vuduclong0309.github.io/
 
@@ -48,7 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello there! You can call me Long for short. I’m a currently a master student in financial engineering, with 3 year working experience as a data engineer in Shopee.
+  Hello there! You can call me Long for short. I’m a currently a master student in financial engineering, with the 3-year working experience as a data engineer in Shopee.
+
   Beside the current interest in finance, having built a game available on Google Play, this website, and an IEEE journal inspired from my bachelor thesis, I can say I'm an explorer.
 
   At the moment I'm most in touch with <mark>Python</mark> and <mark>Apache Spark</mark>.
@@ -78,7 +79,7 @@ content:
         quote: >
           A bridge that connects a software engineer and a traditional trader in taming the market ... or getting horribly bullied by it.
         description: | # this will include new lines to allow paragraphs
-          My soul personal project of 2022. I will my tools, including an automated technical trading system; and semi-bot to follow with trade signal on Github. To request for a demo of my issue ticket & confluence, please contact me.
+          My soul personal project of 2022. So far I have built an automated technical trading system; and an options trade semi-bot to follow with trade signal on Github. To request for a demo of my issue ticket & confluence, please contact me.
 
           I could always see a rift when it comes to high frequency trading for most ordinary people:
             - A software engineer often face problems with understanding financial terms.
@@ -89,8 +90,8 @@ content:
             - Easy-to-use for a trader, as much as using a script copied from a Youtube channel.
 
           Made possible with:
-            Tech Stack and Framework: <mark>Python, InteractiveBroker TWS API and Backtrader</mark>
-            Development tracking and knowledge archive: <mark>Atlassian JIRA and Confluence</mark>
+            - Tech Stack and Framework: <mark>Python, InteractiveBroker TWS API and Backtrader</mark>
+            - Development tracking and knowledge archive: <mark>Atlassian JIRA and Confluence</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,17 +103,28 @@ content:
         sub_title: Data Engineer
         caption: July 2019 - August 2022
         quote: >
-          "I hope I didn't delete any user or item table by accident"
-          "I copied my job duties from my company reference letter, for details please refer to my CV"
+          - "I hope I didn't delete any user or item table by accident"
+          - "I copied my job duties from my company reference letter, for details please refer to my CV"
         description: | # this will include new lines to allow paragraphs
-            Job duties:
+          Job duties:
             - Maintainer of Shopee 3PL Rebate logic, shop's chat response rate and provides
             data for Shopee Campaign Infographic (2019)
             - Maintainer of User Profile and Item Profile legacy database (2020-2021)
             - Design and Implement a Data Warehouse to capture Shopee chatbot metrics (2021)
             - Expand User Tagging Project - user level tags for newer regions (2022)
-            Tech Stack / Framework: <mark>Python 2/3, Scala, Apache Spark 2.3-3.1, Apache Hadoop, Apache Airflow, Apache Superset, Apache Hive</mark>
+          Tech Stack / Framework: <mark>Python 2/3, Scala, Apache Spark 2.3-3.1, Apache Hadoop, Apache Airflow, Apache Superset, Apache Hive</mark>
 
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: WorldQuant University
+        caption: 2020 - Present
+        sub_title: Master in Financial Engineering
+        quote: >
+          - "So because of this, I'm technically a student, yeah"
+        description: | # this will include new lines to allow paragraphs
+          Cumulative Grade Point Average: 90/100
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -122,8 +134,8 @@ content:
         caption: 2015 - 2019
         sub_title: BSc Computer Science
         quote: >
-          Established in 1991, NTU is the second oldest autonomous university in the country and is considered as one of the most prestigious universities in the world by various international metrics. It is usually ranked amongst the world's top 20 institutions of higher learning (Wikipedia)
-          "You can get a subsidy for tuition fee as an international student and work in Singapore for 3 year after that :D"
+          - Established in 1991, NTU is the second oldest autonomous university in the country and is considered as one of the most prestigious universities in the world by various international metrics. It is usually ranked amongst the world's top 20 institutions of higher learning (Wikipedia)
+          - "You can get a subsidy for tuition fee as an international student and work in Singapore for 3 year after that :D"
         description: | # this will include new lines to allow paragraphs
           Cumulative Grade Point Average: 4.60 - CONTINUED NEXT PAGE -
           TRANSCRIPT GUIDE PRINTED ON REVERSE           COMPLETED THE DEGREE OF BACHELOR OF ENGINEERING (COMPUTER SCIENCE), HONOURS (HIGHEST DISTINCTION) WITH AN ELECTIVE FOCUS AN ARTIFICIAL INTELLIGENCE AND AN ELECTIVE FOCUS IN DATA SCIENCE AND ANALYTICS
@@ -133,15 +145,14 @@ content:
     content: | # this will include new lines to allow paragraphs
       - Normally I'm very lazy
         - In fact, most of the job description above I probably just copied from some of my document without editing. I don't want to edit it since I blame it for potential Git merge conflict.
-        - but I can be bribed with fruit juice and food. I believe my productivity is higher in companies with a fully-stocked pantry.
+        - I also "borrowed" this website template from a guy called Brett Harris
+        - Nonetheless, I can be bribed with fruit juice and food. I believe my productivity is highest in companies with a fully-stocked pantry.
 
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Gaming
       - Manga (I'm NOT an Otaku)
-        - I also "borrowed" a OCR translator (Japanese -> English) be able to read manga in Japanese https://github.com/vuduclong0309/Sugoi-Japanese-Translator from another guy named leminhyen2.
+        - I also "borrowed" a OCR translator (Japanese -> English) for reading manga in Japanese from leminhyen: <mark>https://github.com/vuduclong0309/Sugoi-Japanese-Translator</mark>
       - Ping Pong (But please I'm not Chinese)
-      Look at this cool image
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
