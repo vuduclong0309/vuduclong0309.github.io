@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Vu Duc Long
-title: Ex Data Engineer, Student
+title: Ex Data Engineer, Master Student (Data Science and Financial Engineer)
 email: vuduclong0309@gmail.com
 website: https://vuduclong0309.github.io/
 
@@ -33,7 +33,7 @@ linkedin_username: vuduclong0309
 additional_links:
 - title: itsgoingto.be
   icon: fas fa-file
-  url: https://www.itsgoingto.be
+  url: https://drive.google.com/file/d/1HJEP4yzZhP3gdpkSryXEKCr_YVyhhkLD/view?usp=share_link
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,9 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello there! You can call me Long for short. I’m a currently a master student in financial engineering, with the 3-year working experience as a data engineer in Shopee.
+  Hello there! You can call me Long for short. I’m a currently a master student in Perth, Australia, focused in financial engineering and data science, with the 3-year working experience as a data engineer in Shopee Singapore.
 
-  Beside the current interest in finance, having built a game available on Google Play, this website, and an IEEE journal inspired from my bachelor thesis, I can say I'm an explorer.
+  Beside the current interests, having built a game available on Google Play, this website, and an IEEE journal inspired from my bachelor thesis, I can say I'm an explorer.
 
   At the moment I'm most in touch with <mark>Python</mark> and <mark>Apache Spark</mark>.
 
@@ -67,7 +67,7 @@ content:
         title: LongNShort
         link: https://longnshort.atlassian.net
         # link_text: Project Website
-        sub_title: Data Engineer, Software Engineer, Product Manager ... (Yeah you got it, everything)
+        sub_title: Data Engineer, Software Engineer, Data Analyst
         caption: August 2022 - Present
         additional_links:
           - title:  vuduclong0309/LongAndShort
@@ -85,7 +85,7 @@ content:
             - A software engineer often face problems with understanding financial terms.
             - A traditional retail trader finds building a high quality trading system a formidable task.
 
-          LongNShort aim to eliminate the obstacle: A quality customizable automated trading system that is both:
+          LongNShort aim to eliminate the obstacle: A quality customizable automated trading system with the folling targets in consideration:
             - Well-documented market archive knowledge for an engineer
             - Easy-to-use for a trader, as much as using a script copied from a Youtube channel.
 
@@ -104,7 +104,6 @@ content:
         caption: July 2019 - August 2022
         quote: >
           - "I hope I didn't delete any user or item table by accident"
-          - "I copied my job duties from my company reference letter, for details please refer to my CV"
         description: | # this will include new lines to allow paragraphs
           Job duties:
             - Maintainer of Shopee 3PL Rebate logic, shop's chat response rate and provides
@@ -118,11 +117,21 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: The Western University of Australia
+        caption: 2023 - Present
+        sub_title: Master of Data Science
+        quote: >
+          - "Because I like Perth :D"
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
         title: WorldQuant University
         caption: 2020 - Present
-        sub_title: Master in Financial Engineering
+        sub_title: Master of Financial Engineer
         quote: >
-          - "So because of this, I'm technically a student, yeah"
+          - "Hey perhaps I want to become a Quant" - Me, 2020, before knowing about derivation pricing. No regrets.
         description: | # this will include new lines to allow paragraphs
           Cumulative Grade Point Average: 90/100
 
@@ -135,7 +144,7 @@ content:
         sub_title: BSc Computer Science
         quote: >
           - Established in 1991, NTU is the second oldest autonomous university in the country and is considered as one of the most prestigious universities in the world by various international metrics. It is usually ranked amongst the world's top 20 institutions of higher learning (Wikipedia)
-          - "You can get a subsidy for tuition fee as an international student and work in Singapore for 3 year after that :D"
+
         description: | # this will include new lines to allow paragraphs
           Cumulative Grade Point Average: 4.60 - CONTINUED NEXT PAGE -
           TRANSCRIPT GUIDE PRINTED ON REVERSE           COMPLETED THE DEGREE OF BACHELOR OF ENGINEERING (COMPUTER SCIENCE), HONOURS (HIGHEST DISTINCTION) WITH AN ELECTIVE FOCUS AN ARTIFICIAL INTELLIGENCE AND AN ELECTIVE FOCUS IN DATA SCIENCE AND ANALYTICS
@@ -143,16 +152,16 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Normally I'm very lazy
-        - In fact, most of the job description above I probably just copied from some of my document without editing. I don't want to edit it since I blame it for potential Git merge conflict.
+      - Normally I'm very lazy (Well, on the positive side they say lazy people often find easy way to solve stuff)
+        - For instance, most of the job / experience description above I probably just copy pasted from my documents (You can ask me for official document that I have copied for validation). I don't want to edit it since I blame it for potential Git merge conflict. (Sorry for that NTU section, by the way ^^)
         - I also "borrowed" this website template from a guy called Brett Harris
-        - Nonetheless, I can be bribed with fruit juice and food. I believe my productivity is highest in companies with a fully-stocked pantry.
+        - Nonetheless, I can be bribed with fruit juice and food. I believe my productivity is highest when I'm near a pantry.
 
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Gaming
+      Some of my other interests and hobbies are:
+      - Video Game (Welp, certainly not about creating game, one of my nightmare is designing game assets)
       - Manga (I'm NOT an Otaku)
-        - I also "borrowed" a OCR translator (Japanese -> English) for reading manga in Japanese from leminhyen: <mark>https://github.com/vuduclong0309/Sugoi-Japanese-Translator</mark>
-      - Ping Pong (But please I'm not Chinese)
+        - I also "borrowed" a OCR translator (Japanese -> English) for reading raw manga in Japanese from leminhyen: <mark>https://github.com/vuduclong0309/Sugoi-Japanese-Translator</mark>
+      - Ping Pong (I'm not Chinese btw, I'm Vietnamese)
 
 # Footer
 footer_show_references: true
